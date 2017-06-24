@@ -1,17 +1,17 @@
 {
 	"manifest_version": 2,
-	"name": "Caaaarbs",
+	"name": "Name Converter",
 	"version": "1.0",
-	"description": "Paleo's best friend.",
-	"icons": { "16": "images/carbs16.png",
-           "48": "images/carbs48.png",
-          "128": "images/carbs128.png" },
-	"content_scripts": 
+	"description": "Correct team abbreviations on demand.",
+	"icons": { "16": "images/hockey_player_16.png",
+           "48": "images/hockey_player_48.png",
+          "128": "images/hockey_player_128.png" },
+	"content_scripts":
 	[
 		{
-			"matches": ["*://*/*"], 
+			"matches": ["*://*.reddit.com/*"],
 			"js": ["myscript.js"],
-			"run_at": "document_end"  
+			"run_at": "document_end"
 		}
 	]
 }
