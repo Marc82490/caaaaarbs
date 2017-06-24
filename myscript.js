@@ -37,6 +37,7 @@ function handleText(textNode)
 	v = v.replace(/\bWIN\b/g, "WPG");
 	v = v.replace(/\bLVK\b/g, "VGK");
 	v = v.replace(/\bVEG\b/g, "VGK");
+	v = v.replace(/\bNAS\b/g, "NSH");
 
 
 	textNode.nodeValue = v;

@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "NHL Name Converter",
-	"version": "0.2",
+	"version": "0.3",
 	"description": "Correct NHL team abbreviations on demand.",
 	"icons": { "16": "images/image16.png",
            "48": "images/image48.png",
