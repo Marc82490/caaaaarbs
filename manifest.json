@@ -3,9 +3,9 @@
 	"name": "Name Converter",
 	"version": "1.0",
 	"description": "Correct team abbreviations on demand.",
-	"icons": { "16": "images/hockey_player_16.png",
-           "48": "images/hockey_player_48.png",
-          "128": "images/hockey_player_128.png" },
+	"icons": { "16": "images/image16.png",
+           "48": "images/image48.png",
+          "128": "images/image128.png" },
 	"content_scripts":
 	[
 		{
@@ -13,5 +13,8 @@
 			"js": ["myscript.js"],
 			"run_at": "document_end"
 		}
-	]
+	],
+    "browser_action": {
+      "default_icon": "images/image48.png"
+    }
 }
